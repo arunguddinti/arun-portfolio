@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun Guddinti - IT & Management Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset and Variables */
+        :root {
+            --primary-color: #5E87DD; /* A professional blue/indigo */
+            --secondary-color: #3468d4;
+            --text-color: #333333;
+            --background-light: #f9f9f9;
+            --card-background: #ffffff;
+            --border-radius: 12px;
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-light);
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        h1, h2, h3, h4 {
+            color: var(--primary-color);
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: 700;
+        }
+        h1 { font-size: 2.2em; }
+        h2 { font-size: 1.8em; }
+        h3 { font-size: 1.4em; }
+        h4 { font-size: 1.1em; }
+
+        /* Card Styling for Sections */
+        .card {
+            background: var(--card-background);
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Header and Contact */
+        .header-card {
+            background-image: linear-gradient(45deg, #D4CCFA, #AAE4FE);
+            color: var(--text-color);
+            padding: 40px;
+            text-align: center;
+        }
+        .header-card h1 {
+            color: var(--text-color);
+            margin-top: 0;
+            font-size: 2.5em;
+        }
+        .header-card p {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        .contact-link {
+            display: inline-block;
+            margin: 5px 10px;
+            padding: 10px 20px;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        .contact-link:hover {
+            background-color: var(--secondary-color);
+        }
+
+        /* Lists and Grids (for tables/skills) */
+        .content-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .content-list li {
+            margin-bottom: 5px;
+            padding-left: 20px;
+            text-indent: -15px;
+        }
+        .content-list li:before {
+            content: "•";
+            color: var(--primary-color);
+            font-weight: bold;
+            display: inline-block;
+            width: 15px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .grid-item {
+            background-color: var(--background-light);
+            padding: 15px;
+            border-radius: var(--border-radius);
+        }
+        
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.95em;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px 15px;
+            border-bottom: 1px solid #eeeeee;
+        }
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 600;
+        }
+        tr:nth-child(even) {
+            background-color: #f7f7f7;
+        }
+        
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card header-card">
+            <h1>Arun Guddinti</h1>
+            <p>Master's Student in Information Technology and Management</p>
+            <p>Greensboro, North Carolina, US</p>
+            <div style="margin-top: 20px;">
+                <a href="mailto:guddintiarun@gmail.com" class="contact-link">Get in Touch</a>
+                <a href="https://www.linkedin.com/in/arunguddinti" target="_blank" class="contact-link">LinkedIn Profile</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Professional Summary</h2>
+            <p>As a Master's student in Information Technology and Management, I bring a strong foundation in IT principles, cloud technologies, and data protection strategies. I am actively seeking internships, research projects, and collaborative opportunities to apply my skills in real-world settings, enhance my expertise, and contribute to innovative IT solutions.</p>
+            <p style="margin-top: 15px;">My experience spans project coordination, data management, spatial analysis, and educational support, positioning me to make meaningful contributions to technology-driven initiatives.</p>
+            <p style="margin-top: 15px;"><strong>Available for:</strong> Internships, Research Projects, Collaborative Opportunities, Full-time positions starting <strong>December 2025</strong>.</p>
+        </div>
+
+        <div class="card">
+            <h2>Technical Competencies</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>Data Management</h3>
+                    <ul class="content-list">
+                        <li>Microsoft Excel with VBA automation</li>
+                        <li>Microsoft Access database operations</li>
+                        <li>Data organization and record maintenance</li>
+                        <li>Spatial data interpretation</li>
+                        <li>File management systems</li>
+                    </ul>
+                </div>
+                <div class="grid-item">
+                    <h3>Geographic & Mapping Tools</h3>
+                    <ul class="content-list">
+                        <li>Geographic Information Systems (GIS)</li>
+                        <li>Google Earth Pro</li>
+                        <li>Guilford County GIS Data Viewer</li>
+                        <li>Boundary verification and mapping</li>
+                        <li>Development pattern analysis</li>
+                    </ul>
+                </div>
+                <div class="grid-item">
+                    <h3>Software & Platforms</h3>
+                    <ul class="content-list">
+                        <li>Microsoft Office Suite (Excel, Access, PowerPoint, Word)</li>
+                        <li>WordPress content management</li>
+                        <li>VBA programming for automation</li>
+                        <li>Database systems implementation</li>
+                        <li>Presentation development tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Professional Experience</h2>
+            
+            <h3>Intern, NCDOT</h3>
+            <p><em>June 2025 - Present</em></p>
+            <ul class="content-list">
+                <li>Outline approved Traffic Impact Analysis (TIA) project boundaries and add development details using the Guilford County GIS Data Viewer.</li>
+                <li>Interpret spatial data to verify boundary accuracy and identify development patterns throughout the county.</li>
+                <li>Implement VBA automation in Microsoft Excel for folder creation and data management support.</li>
+                <li>Use Microsoft Access to view project information and streamline file management tasks.</li>
+            </ul>
+
+            <h3 style="margin-top: 2em;">Graduate Student Assistant & Teaching Assistant, UNC Greensboro</h3>
+            <p><em>August 2024 - June 2025 (11 Months Total)</em></p>
+            <ul class="content-list">
+                <li>Supported the Department of Information Systems and Supply Chain Management through project coordination and managed <strong>WordPress</strong> content updates.</li>
+                <li>Assisted in teaching <strong>ISM 218-01 &amp; ISM 218-02: Database Systems</strong>, supporting students during lab sessions and guiding group projects.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Educational Journey</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Focus / Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Master's Degree</td>
+                        <td>University of North Carolina at Greensboro</td>
+                        <td>Information Technology and Management (Aug 2024 - Dec 2025 Expected)</td>
+                    </tr>
+                    <tr>
+                        <td>Bachelor of Technology</td>
+                        <td>Marri Educational Society's Marri Laxman Reddy Institute of Technology and Management</td>
+                        <td>CSE - Cyber Security (Aug 2020 - May 2024)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Professional Certifications & Recognition</h2>
+            <ul class="content-list">
+                <li><strong>Tata Group - Cybersecurity Analyst Job Simulation:</strong> Completed program focused on analysis, threat detection, and security protocols.</li>
+                <li><strong>Introduction to Cyber Security Course Certification:</strong> Demonstrated proficiency in cybersecurity fundamentals and best practices.</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
